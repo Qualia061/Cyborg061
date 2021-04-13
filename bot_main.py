@@ -56,6 +56,8 @@ if __name__ == '__main__':
     print('Started...')
     #mysystemd.ready()
 
+    #updater.bot.sendMessage(chat_id=me.id, text ='Hi!')
+
     updater.idle()
     print('Stopping...')
     print('Stopped.')
